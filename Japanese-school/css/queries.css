@@ -1,0 +1,338 @@
+/******************************/
+/* Below 1272px (Smaller desktops)*/
+/******************************/
+
+@media (max-width: 79.5em) {
+  .heading-primary {
+    font-size: 5rem;
+  }
+}
+
+/******************************/
+/* Below 1221px (Smaller desktops)*/
+/******************************/
+
+@media (max-width: 76.3em) {
+  html {
+    font-size: 58%;
+  }
+
+  .hero {
+    max-width: 120rem;
+  }
+
+  /* .heading-primary {
+    font-size: 4.8rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 1.4rem;
+  } */
+
+  .logo {
+    width: 22rem;
+  }
+}
+/******************************/
+/* Below 1125px (Smaller desktops)*/
+/******************************/
+
+@media (max-width: 70.7em) {
+  html {
+    font-size: 54%;
+  }
+}
+
+/******************************/
+/* Below 1066px (Smaller desktops)*/
+/******************************/
+
+@media (max-width: 66em) {
+  .heading-secondary {
+    font-size: 4rem;
+  }
+  .subheading {
+    font-size: 1.6rem;
+  }
+
+  .step-number {
+    font-size: 5.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 3rem;
+  }
+
+  .teacher-attribute li {
+    font-size: 1.4rem;
+  }
+
+  .plan-name {
+    font-size: 2.2rem;
+  }
+
+  .plan-price span {
+    font-size: 7rem;
+  }
+
+  .plice-list {
+    font-size: 2.2rem;
+  }
+}
+
+/******************************/
+/* Below 960px (Smaller desktops)*/
+/******************************/
+
+@media (max-width: 60.6em) {
+  .hero {
+    padding: 0 8rem;
+  }
+
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.8rem;
+  }
+
+  .heading-quaternary {
+    font-size: 2.4rem;
+  }
+
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.974);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: all 0.3s ease-in;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 1.8rem;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 99999;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+    /* position: fixed;
+    top: 3%;
+    right: 5%; */
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-open .navigation {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+  }
+
+  .hero-text-box {
+    text-align: center;
+  }
+  .users {
+    justify-content: center;
+  }
+
+  .hero-img-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .step-number {
+    font-size: 5rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.7rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 8rem;
+  }
+
+  .card {
+    width: 80%;
+    justify-self: center;
+  }
+
+  .masako {
+    grid-column: 1/-1;
+    width: 40%;
+  }
+}
+
+/******************************/
+/* Below 870px (Smaller desktops)*/
+/******************************/
+
+@media (max-width: 54.3em) {
+  .heading-secondary {
+    font-size: 3.5rem;
+  }
+
+  .step-number {
+    font-size: 4.2rem;
+  }
+
+  .step-description {
+    font-size: 1.4rem;
+  }
+
+  .price-list {
+    font-size: 2rem;
+    gap: 1rem;
+  }
+
+  .plan-card .btn {
+    font-size: 1.5rem;
+  }
+}
+
+/******************************/
+/* Below 764px (Smaller desktops)*/
+/******************************/
+
+@media (max-width: 47.7em) {
+  .heading-primary {
+    font-size: 4.6rem;
+  }
+
+  .hero-description {
+    font-size: 1.4rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 60%;
+  }
+  .masako {
+    width: 60%;
+  }
+
+  .teacher-link:link,
+  .teacher-link:visited {
+    margin-top: 3rem;
+  }
+
+  .section-pricing .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  /* .plan-cards {
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .plan-card {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 3rem;
+    width: 60%;
+    border-radius: 2%;
+  }
+
+  .price-card--starter {
+    justify-self: center;
+  }
+  .price-plan--complete {
+    justify-self: center;
+  }
+}
+
+/******************************/
+/* Below 580px (Smaller desktops)*/
+/******************************/
+
+@media (max-width: 36.3em) {
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 1.6rem;
+    padding: 1.4rem 2.4rem;
+  }
+
+  .logos {
+    height: 1.8rem;
+  }
+
+  .section-how .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .step-text-box:nth-child(4) {
+    grid-row: 3;
+  }
+
+  .step-img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .dots {
+    display: none;
+  }
+
+  .slider--btn {
+    display: none;
+  }
+
+  .slider {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    height: auto;
+  }
+
+  .slide {
+    position: static;
+  }
+
+  .slide--1,
+  .slide--2 {
+    margin-bottom: 7rem;
+  }
+}
